@@ -1,43 +1,51 @@
+# Projektin nimi
 Ennuste sää
-Tekijä(t): Mette Holmström ja Jimi Helenius
 
-Projektisuunnitelma
-Projektin idea
+**Tekijä(t):** Mette Holmström ja Jimi Helenius
+
+## Projektisuunnitelma
+
+
+### Projektin idea
 Eri paikkakuntien sääennuste. Sovellus on tarkoitettu kaikille ihmisille, jotka
 ovat kiinnostuneita tai halukkaita hakemaan sääennusteita. 
 
-Suunnitellut toiminnot
+### Suunnitellut toiminnot
 
 Toiminto 1: 
 Toiminto 2: 
 Toiminto 3: 
-Rautalankamalli / luonnos
 
-Lisää tähän kuva käsin piirtämästäsi tai digitaalisesti tehdystä sovelluksen luonnoksesta. Luonnoksessa tulee näkyä sovelluksen pääasiallinen näkymä ja tärkeimmät elementit.
-
-Esimerkki kuvan lisäämisestä:
+### Rautalankamalli / luonnos
 
 Rautalankamalli
 ![Rautalankamalli](image/sääennuste.png)
 
 
-Verkkolinkit
-Julkaistu sovellus: Lisää tähän GitHub Pages -osoite
-GitHub-repositorio: Lisää tähän repositorion osoite
-Projektin videoesittely: Lisää tähän videon osoite
-Tietoja sovelluksesta
+## Verkkolinkit
+
+- **Julkaistu sovellus:** Lisää tähän GitHub Pages -osoite
+
+- **GitHub-repositorio:** Lisää tähän repositorion osoite
+
+- **Projektin videoesittely:** Lisää tähän videon osoite
+
+
+## Tietoja sovelluksesta
 [Projektin nimi] on verkkosovellus, joka ...
 
 Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
 
-Teknologiat
+## Teknologiat
 Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 
 HTML – sivun rakenne
 CSS – ulkoasu ja asettelu
 JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
 localStorage – tietojen tallentaminen selaimeen, jos käytit sitä
-Sovelluksen käyttö
+
+
+## Sovelluksen käyttö
 Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 Avaa julkaistu sovellus yllä olevasta linkistä.
@@ -53,21 +61,23 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
 
 Esimerkki kuvan lisäämisestä:
 
-Kuvakaappaus sovelluksesta
+## Kuvakaappaus sovelluksesta
 
-Tunnetut virheet / puutteet
+## Tunnetut virheet / puutteet
 Kerro, jos sovelluksessa on tunnettuja virheitä, puuttuvia toimintoja tai muita rajoituksia.
 
 Jos tunnettuja virheitä ei ole, kirjoita: Ei tunnettuja virheitä.
 
-Työn jakautuminen
+## Työn jakautuminen
 Täytä tämä osio vain, jos teit projektin parityönä.
 
 Kuvaile, miten työ jakautui ja miten yhteistyö sujui.
 
 Tekijä 1: ...
 Tekijä 2: ...
-Oma arvio ja oppimisen reflektointi
+
+
+## Oma arvio ja oppimisen reflektointi
 Pohdi työtäsi ja oppimisprosessiasi.
 
 Missä onnistuin?
@@ -81,14 +91,15 @@ Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesi
 
 Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
 
-Lähteen tai tutoriaalin nimi
+## Lähteen tai tutoriaalin nimi
 
 Kuvalähde
 
 Käytetty tekoälytyökalu: ...
 
 Miten työkalua käytettiin: ...
-Lisenssi
+
+## Lisenssi
 Tämä projekti on lisensoitu MIT-lisenssillä.
 
 Lisätietoa lisenssin lisäämisestä GitHub-projektiin: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository

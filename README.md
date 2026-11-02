@@ -12,11 +12,14 @@ Toiminto 1:
 Toiminto 2: 
 Toiminto 3: 
 Rautalankamalli / luonnos
+
 Lisää tähän kuva käsin piirtämästäsi tai digitaalisesti tehdystä sovelluksen luonnoksesta. Luonnoksessa tulee näkyä sovelluksen pääasiallinen näkymä ja tärkeimmät elementit.
 
 Esimerkki kuvan lisäämisestä:
 
 Rautalankamalli
+![Rautalankamalli](image/sääennuste.png)
+
 
 Verkkolinkit
 Julkaistu sovellus: Lisää tähän GitHub Pages -osoite

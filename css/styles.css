@@ -1,0 +1,103 @@
+/* Sivun perusasetukset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Otsikko ja ohjeteksti */
+header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+header p {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* Lomakkeen sijoittelu */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+/* Kaupunki- ja päivämääräkentät */
+label {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #777;
+    background-color: white;
+    font-size: 14px;
+}
+
+/* HAE-painike */
+button {
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+/* Mobiilinäkymä */ 
+@media (max-width: 600px) {
+    header {
+        padding: 40px 20px 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    main {
+        margin-top: 30px;
+    }
+}

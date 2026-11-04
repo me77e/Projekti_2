@@ -4,20 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sääennuste</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
     <header>
+        <h1>Sääennuste</h1>
+        <p>Kirjoita haluttu kaupunki ja päivämäärä. Sen jälkeen paina hae painiketta ja näin saat halutun sääennusteen.</p>
     </header>
 
     <main>
+        <form>
+            <div>
+               <label for="kaupunki">KAUPUNKI</label>
+                <input type="text" id="kaupunki" name="kaupunki" placeholder="Helsinki" required> 
+            </div>
+
+            <div>
+              <label for="paivamaara">PÄIVÄMÄÄRÄ</label>
+                <input type="date" id="paivamaara" name="paivamaara" required>  
+            </div>
+            <button type="submit">HAE</button>
+        </form>
+        <section id="saaennuste">
+        </section>
     </main>
-
-    <footer>
-    </footer>
-
     <script src="js/script.js"></script>
 </body>
 </html>

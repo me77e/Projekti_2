@@ -12,9 +12,9 @@ ovat kiinnostuneita tai halukkaita hakemaan sääennusteita.
 
 ### Suunnitellut toiminnot
 
-Toiminto 1: 
-Toiminto 2: 
-Toiminto 3: 
+Toiminto 1: Kaupungin hakeminen - Käyttäjä voi kirjoittaa haluamanasa kaupungin nimen, jonka perusteella sovellus hakee sääennusteen. 
+Toiminto 2: Päivämäärän valitseminen - Käyttäjä voi valita haluamansa päivämäärän ja tarkastella kyseisen päivän sääennustetta. 
+Toiminto 3: Sääennusteen näyttäminen - Sovellus näyttää valitun kaupungin ja päivämäärän sääennusteen kolmen tunnin välein. Ennuste sisältää lämpötilan, sääolosuhteet, tuulen nopeuden ja ilmankosteuden.
 
 ### Rautalankamalli / luonnos
 

@@ -32,41 +32,30 @@ Rautalankamalli
 
 
 ## Tietoja sovelluksesta
-[Projektin nimi] on verkkosovellus, joka ...
-
-Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
+[Ennuste sää] Verkkosovelluksen tarkoituksena on tarjota käyttäjälle helppo tapa tarkastella eri kaupunkien sääennusteita. Käyttäjä voi syöttää haluamansa kaupungin ja valita päivämäärän, jonka jälkeen sovellus näyttää sääennusteen kolmen tunnin välein. Ennuste sisältää lämpötilan, sääolosuhteet, tuulen nopeuden ja ilmankosteuden.
 
 ## Teknologiat
-Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 
-HTML – sivun rakenne
-CSS – ulkoasu ja asettelu
-JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
-localStorage – tietojen tallentaminen selaimeen, jos käytit sitä
+HTML – Verkkosovelluksen rakenne ja lomakekentät.
+CSS – Sivuston ulkoasu ja asettelu.
+JavaScript – Sovelluksen toiminnallisuus, käyttäjän syötteiden käsittely ja sääennusteiden näyttäminen.
+OpenWeatherMap API – Kaupunkien sijaintitietojen ja sääennusteiden hakeminen.
 
 
 ## Sovelluksen käyttö
-Kirjoita lyhyet käyttöohjeet sovellukselle.
+Käyttäjä syöttää haluamansa kaupungin ja valitsee päivämäärän, jonka jälkeen hän painaa Hae-painiketta.
 
-Avaa julkaistu sovellus yllä olevasta linkistä.
-Täytä lomakkeen kentät.
-Lisää, muokkaa, poista tai merkitse kohteita tehdyiksi.
-Päivitä sivu ja tarkista, säilyvätkö tiedot selaimessa, jos käytit localStoragea.
-Sovelluksen käynnistäminen paikallisesti
-Kloonaa tai lataa tämä repositorio omalle koneellesi.
-Avaa projektikansio.
-Avaa index.html selaimessa.
-Kuvakaappaukset
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
+Sovellus hyödyntää OpenWeatherMap API -rajapintaa. Ensin sovellus hakee syötetyn kaupungin koordinaatit Geocoding API avulla. Tämän jälkeen se hakee koordinaattien perusteella sääennusteen Forecast API.
+
+JavaScript käsittelee rajapinnasta saadut tiedot ja suodattaa ennusteet käyttäjän valitseman päivämäärän mukaan. Lopuksi sovellus näyttää sääennusteen kolmen tunnin välein sisältäen lämpötilan, sääolosuhteet, tuulen nopeuden ja ilmankosteuden.
 
 Esimerkki kuvan lisäämisestä:
 
 ## Kuvakaappaus sovelluksesta
+![Kuvakaappaus sovelluksesta](image/ennuste.saa.png)
 
 ## Tunnetut virheet / puutteet
-Kerro, jos sovelluksessa on tunnettuja virheitä, puuttuvia toimintoja tai muita rajoituksia.
-
-Jos tunnettuja virheitä ei ole, kirjoita: Ei tunnettuja virheitä.
+Ei tunnettuja virheitä.
 
 ## Työn jakautuminen
 Täytä tämä osio vain, jos teit projektin parityönä.

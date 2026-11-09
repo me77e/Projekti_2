@@ -12,9 +12,9 @@ ovat kiinnostuneita tai halukkaita hakemaan sääennusteita.
 
 ### Suunnitellut toiminnot
 
-Toiminto 1: Käyttäjä voi valita ja hakea itse haluamansa paikkakunnan sääennusteen 
-Toiminto 2: Käyttäjä voi hakea valmiilta listalta löytyvän paikkakunnan sääennusteen
-Toiminto 3: 
+Toiminto 1: Kaupungin hakeminen - Käyttäjä voi kirjoittaa haluamanasa kaupungin nimen, jonka perusteella sovellus hakee sääennusteen. 
+Toiminto 2: Päivämäärän valitseminen - Käyttäjä voi valita haluamansa päivämäärän ja tarkastella kyseisen päivän sääennustetta. 
+Toiminto 3: Sääennusteen näyttäminen - Sovellus näyttää valitun kaupungin ja päivämäärän sääennusteen kolmen tunnin välein. Ennuste sisältää lämpötilan, sääolosuhteet, tuulen nopeuden ja ilmankosteuden.
 
 ### Rautalankamalli / luonnos
 
@@ -32,43 +32,30 @@ Rautalankamalli
 
 
 ## Tietoja sovelluksesta
-[Projektin nimi] on verkkosovellus, joka ...
-
-Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
+[Ennuste sää] Verkkosovelluksen tarkoituksena on tarjota käyttäjälle helppo tapa tarkastella eri kaupunkien sääennusteita. Käyttäjä voi syöttää haluamansa kaupungin ja valita päivämäärän, jonka jälkeen sovellus näyttää sääennusteen kolmen tunnin välein. Ennuste sisältää lämpötilan, sääolosuhteet, tuulen nopeuden ja ilmankosteuden.
 
 ## Teknologiat
-Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 
-HTML – sivun rakenne
-CSS – ulkoasu ja asettelu
-JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
-localStorage – tietojen tallentaminen selaimeen, jos käytit sitä
+HTML – Verkkosovelluksen rakenne ja lomakekentät.
+CSS – Sivuston ulkoasu ja asettelu.
+JavaScript – Sovelluksen toiminnallisuus, käyttäjän syötteiden käsittely ja sääennusteiden näyttäminen.
+OpenWeatherMap API – Kaupunkien sijaintitietojen ja sääennusteiden hakeminen.
 
 
 ## Sovelluksen käyttö
-Kirjoita lyhyet käyttöohjeet sovellukselle.
+Käyttäjä syöttää haluamansa kaupungin ja valitsee päivämäärän, jonka jälkeen hän painaa Hae-painiketta.
 
-Avaa julkaistu sovellus yllä olevasta linkistä.
-Täytä lomakkeen kentät.
-Lisää, muokkaa, poista tai merkitse kohteita tehdyiksi.
-Päivitä sivu ja tarkista, säilyvätkö tiedot selaimessa, jos käytit localStoragea.
-Sovelluksen käynnistäminen paikallisesti
-Kloonaa tai lataa tämä repositorio omalle koneellesi.
-Avaa projektikansio.
-Avaa index.html selaimessa.
-Kuvakaappaukset
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
+Sovellus hyödyntää OpenWeatherMap API -rajapintaa. Ensin sovellus hakee syötetyn kaupungin koordinaatit Geocoding API avulla. Tämän jälkeen se hakee koordinaattien perusteella sääennusteen Forecast API.
+
+JavaScript käsittelee rajapinnasta saadut tiedot ja suodattaa ennusteet käyttäjän valitseman päivämäärän mukaan. Lopuksi sovellus näyttää sääennusteen kolmen tunnin välein sisältäen lämpötilan, sääolosuhteet, tuulen nopeuden ja ilmankosteuden.
 
 Esimerkki kuvan lisäämisestä:
 
 ## Kuvakaappaus sovelluksesta
-
-
+![Kuvakaappaus sovelluksesta](image/ennuste.saa.png)
 
 ## Tunnetut virheet / puutteet
-
-Sään hakeminen onnistuu vain jos päivämäärä syötetään ensin.
-
+Ei tunnettuja virheitä.
 
 ## Työn jakautuminen
 Täytä tämä osio vain, jos teit projektin parityönä.
@@ -95,11 +82,6 @@ Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse 
 
 ## Lähteen tai tutoriaalin nimi
 
-https://openweathermap.org/api/geocoding-api?collection=other
-
-How to Use Weather API for Beginners | Open Weather Map API https://www.youtube.com/watch?v=MdIfZJ08g2I 
-
-OpenWeatherMap API Tutorial 2021 https://www.youtube.com/watch?v=nGVoHEZojiQ&t=559s
 Kuvalähde
 
 Käytetty tekoälytyökalu: ...

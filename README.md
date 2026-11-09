@@ -28,7 +28,7 @@ Rautalankamalli
 
 - **GitHub-repositorio:** https://github.com/me77e/Projekti_2
 
-- **Projektin videoesittely:** Lisää tähän videon osoite
+- **Projektin videoesittely:** [Linkki videoon](https://youtu.be/oXFkePhno3I)
 
 
 ## Tietoja sovelluksesta

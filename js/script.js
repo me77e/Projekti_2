@@ -1,4 +1,4 @@
-// API key e3e9413d8f840e4565cd8ebb83e7f823
+// API key 
 const kaupunkiLista = document.getElementById("kaupunki");
 const omaKaupunki = document.getElementById("omaKaupunki");
 const form = document.querySelector("form");

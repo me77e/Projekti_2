@@ -24,9 +24,9 @@ Rautalankamalli
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** Lisää tähän GitHub Pages -osoite
+- **Julkaistu sovellus:** https://me77e.github.io/Projekti_2/
 
-- **GitHub-repositorio:** Lisää tähän repositorion osoite
+- **GitHub-repositorio:** https://github.com/me77e/Projekti_2
 
 - **Projektin videoesittely:** Lisää tähän videon osoite
 
@@ -52,7 +52,7 @@ JavaScript käsittelee rajapinnasta saadut tiedot ja suodattaa ennusteet käytt�
 Esimerkki kuvan lisäämisestä:
 
 ## Kuvakaappaus sovelluksesta
-![Kuvakaappaus sovelluksesta](image/ennuste.saa.png)
+![Kuvakaappaus sovelluksesta](image/kuvakaappaus.png)
 
 ## Tunnetut virheet / puutteet
 Ei tunnettuja virheitä.

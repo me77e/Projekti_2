@@ -41,7 +41,6 @@ form.addEventListener("submit", function(event) {
 });
 
 
-
 //haetaan kaupunki ja sen koordinaatit openweathermapista tai annetaan virheilmoitus
 
 async function haetaan_saa(kaupunki, paivamaara) {

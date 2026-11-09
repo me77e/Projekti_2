@@ -55,7 +55,8 @@ Esimerkki kuvan lisäämisestä:
 ![Kuvakaappaus sovelluksesta](image/kuvakaappaus.png)
 
 ## Tunnetut virheet / puutteet
-Ei tunnettuja virheitä.
+- Sääennusteen hakeminen onnistuu vain jos päivämäärän syöttää ensin. 
+- Sääennusteen saa vain 5 päivää eteenpäin
 
 ## Työn jakautuminen
 Projektia työstetty yhdessä. 
@@ -64,17 +65,30 @@ Projektia työstetty yhdessä.
 ## Oma arvio ja oppimisen reflektointi
 Pohdi työtäsi ja oppimisprosessiasi.
 
-Missä onnistuin? Onnistuimme luomaan toimivan sovelluksen, joka tarjoaa käyttäjälle mahdollisuuden hakea haluamansa paikkakunnan sääennusteen. 
-Mikä oli haastavaa?
+Missä onnistuin?
+-Onnistuimme luomaan toimivan sovelluksen, joka tarjoaa käyttäjälle mahdollisuuden hakea haluamansa paikkakunnan sääennusteen.
+
+Mikä oli haastavaa? 
+-
 Mitä parantaisin, jos aikaa olisi enemmän?
+
+- 
+
 Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
 Oma arvio projektista: 8/10 pistettä
+
 Lähteet ja kiitokset
 Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
 
 Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
 
 ## Lähteen tai tutoriaalin nimi
+
+OpenWeatherMap API Tutorial 2021 https://www.youtube.com/watch?v=nGVoHEZojiQ&t=559s 
+
+How to Use Weather API for Beginners | Open Weather Map API https://www.youtube.com/watch? v=MdIfZJ08g2I
+ 
+Openweather Current & Forecast https://openweathermap.org/api/current?collection=current_forecast
 
 Kuvalähde
 

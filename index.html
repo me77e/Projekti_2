@@ -11,24 +11,35 @@
 
     <header>
         <h1>Sääennuste</h1>
-        <p>Kirjoita haluttu kaupunki ja päivämäärä. Sen jälkeen paina hae painiketta ja näin saat halutun sääennusteen.</p>
+        <p>Kirjoita ensin haluttu päivämäärä ja valitse sen jälkeen kaupunki. Paina hae painiketta ja näin saat halutun sääennusteen.</p>
     </header>
 
-    <main>
-        <form>
+<main>
+     <form>
+        <label for="paivamaara">PÄIVÄMÄÄRÄ</label>
+<input type="date" id="paivamaara" name="paivamaara" required>
+        
             <div>
-               <label for="kaupunki">KAUPUNKI</label>
-                <input type="text" id="kaupunki" name="kaupunki" placeholder="Helsinki" required> 
+                <label for="kaupunki">VALITSE KAUPUNKI</label>
+                <select id="kaupunki">
+                    <option value="">Valitse kaupunki</option>
+                    <option value="Helsinki">Helsinki</option>
+                    <option value="Tampere">Tampere</option>
+                    <option value="Turku">Turku</option>
+                    <option value="Oulu">Oulu</option>
+                    <option value="Jyväskylä">Jyväskylä</option>
+                </select>
             </div>
 
             <div>
-              <label for="paivamaara">PÄIVÄMÄÄRÄ</label>
-                <input type="date" id="paivamaara" name="paivamaara" required>  
+                <label for="omaKaupunki">TAI HAE MUU KAUPUNKI</label>
+                <input type="text" id="omaKaupunki" placeholder="Helsinki">
             </div>
+
             <button type="submit">HAE</button>
         </form>
-        <section id="saaennuste">
-        </section>
+
+        <section id="saaennuste"></section>
     </main>
     <script src="js/script.js"></script>
 </body>

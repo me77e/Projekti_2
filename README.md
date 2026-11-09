@@ -12,8 +12,8 @@ ovat kiinnostuneita tai halukkaita hakemaan sääennusteita.
 
 ### Suunnitellut toiminnot
 
-Toiminto 1: 
-Toiminto 2: 
+Toiminto 1: Käyttäjä voi valita ja hakea itse haluamansa paikkakunnan sääennusteen 
+Toiminto 2: Käyttäjä voi hakea valmiilta listalta löytyvän paikkakunnan sääennusteen
 Toiminto 3: 
 
 ### Rautalankamalli / luonnos
@@ -63,10 +63,12 @@ Esimerkki kuvan lisäämisestä:
 
 ## Kuvakaappaus sovelluksesta
 
-## Tunnetut virheet / puutteet
-Kerro, jos sovelluksessa on tunnettuja virheitä, puuttuvia toimintoja tai muita rajoituksia.
 
-Jos tunnettuja virheitä ei ole, kirjoita: Ei tunnettuja virheitä.
+
+## Tunnetut virheet / puutteet
+
+Sään hakeminen onnistuu vain jos päivämäärä syötetään ensin.
+
 
 ## Työn jakautuminen
 Täytä tämä osio vain, jos teit projektin parityönä.
@@ -93,6 +95,11 @@ Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse 
 
 ## Lähteen tai tutoriaalin nimi
 
+https://openweathermap.org/api/geocoding-api?collection=other
+
+How to Use Weather API for Beginners | Open Weather Map API https://www.youtube.com/watch?v=MdIfZJ08g2I 
+
+OpenWeatherMap API Tutorial 2021 https://www.youtube.com/watch?v=nGVoHEZojiQ&t=559s
 Kuvalähde
 
 Käytetty tekoälytyökalu: ...

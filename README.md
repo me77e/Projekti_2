@@ -32,7 +32,7 @@ Rautalankamalli
 
 
 ## Tietoja sovelluksesta
-[Ennuste sää] Verkkosovelluksen tarkoituksena on tarjota käyttäjälle helppo tapa tarkastella eri kaupunkien sääennusteita. Käyttäjä voi syöttää haluamansa kaupungin ja valita päivämäärän, jonka jälkeen sovellus näyttää sääennusteen kolmen tunnin välein. Ennuste sisältää lämpötilan, sääolosuhteet, tuulen nopeuden ja ilmankosteuden.
+Ennuste sää verkkosovelluksen tarkoituksena on tarjota käyttäjälle helppo tapa tarkastella eri kaupunkien sääennusteita. Käyttäjä voi syöttää haluamansa kaupungin ja valita päivämäärän, jonka jälkeen sovellus näyttää sääennusteen kolmen tunnin välein. Ennuste sisältää lämpötilan, sääolosuhteet, tuulen nopeuden ja ilmankosteuden.
 
 ## Teknologiat
 
@@ -58,23 +58,17 @@ Esimerkki kuvan lisäämisestä:
 Ei tunnettuja virheitä.
 
 ## Työn jakautuminen
-Täytä tämä osio vain, jos teit projektin parityönä.
-
-Kuvaile, miten työ jakautui ja miten yhteistyö sujui.
-
-Tekijä 1: ...
-Tekijä 2: ...
+Projektia työstetty yhdessä. 
 
 
 ## Oma arvio ja oppimisen reflektointi
 Pohdi työtäsi ja oppimisprosessiasi.
 
-Missä onnistuin?
+Missä onnistuin? Onnistuimme luomaan toimivan sovelluksen, joka tarjoaa käyttäjälle mahdollisuuden hakea haluamansa paikkakunnan sääennusteen. 
 Mikä oli haastavaa?
 Mitä parantaisin, jos aikaa olisi enemmän?
 Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
-Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
-Oma arvio projektista: xx/10 pistettä
+Oma arvio projektista: 8/10 pistettä
 Lähteet ja kiitokset
 Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
 

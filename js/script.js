@@ -1,22 +1,46 @@
 // API key e3e9413d8f840e4565cd8ebb83e7f823
-
+const kaupunkiLista = document.getElementById("kaupunki");
+const omaKaupunki = document.getElementById("omaKaupunki");
 const form = document.querySelector("form");
-const kaupunkiInput = document.getElementById("kaupunki");
 const paivamaaraInput = document.getElementById("paivamaara");
 const saaennuste = document.getElementById("saaennuste");
 
 // Oma API-avain
 const API_KEY = "e3e9413d8f840e4565cd8ebb83e7f823";
 
-// Käyttäjä hakee sääennusteen
+// Valmiin kaupungin valinta pudotusvalikosta
+kaupunkiLista.addEventListener("change", function() {
+    omaKaupunki.value = "";
+});
+
+// Käyttäjä hakee itse haluamansa kaupungin sääennusteen
 
 form.addEventListener("submit", function(event) {
     event.preventDefault();
-    const kaupunki = kaupunkiInput.value;
+
     const paivamaara = paivamaaraInput.value;
+    let kaupunki = "";
+
+    if (paivamaara === "") {
+        saaennuste.textContent = "Syötä ensin päivämäärä.";
+        return;
+    }
+
+    if (omaKaupunki.value !== "") {
+        kaupunki = omaKaupunki.value;
+    } else {
+        kaupunki = kaupunkiLista.value;
+    }
+
+    if (kaupunki === "") {
+        saaennuste.textContent = "Valitse tai kirjoita kaupunki.";
+        return;
+    }
 
     haetaan_saa(kaupunki, paivamaara);
 });
+
+
 
 //haetaan kaupunki ja sen koordinaatit openweathermapista tai annetaan virheilmoitus
 

@@ -5,6 +5,9 @@ const form = document.querySelector("form");
 const paivamaaraInput = document.getElementById("paivamaara");
 const saaennuste = document.getElementById("saaennuste");
 
+//Oma API KEY
+const API_KEY = "OMA_API_AVAIN";
+
 // Valmiin kaupungin valinta pudotusvalikosta
 kaupunkiLista.addEventListener("change", function() {
     omaKaupunki.value = "";
@@ -98,7 +101,7 @@ function naytaSaa(paivanSaa, kaupunki) {
         saaennuste.innerHTML += `
             <div>
                 <h3>${item.dt_txt}</h3>
-                <p>Lämpötila: ${item.main.temp.toFixed(1)} °C</p>
+                <p>Lämpötila: ${item.main.temp.toFixed(0)} °C</p>
                 <p>Sää: ${item.weather[0].description}</p>
                 <p>Tuuli: ${item.wind.speed.toFixed(1)} m/s</p>
                 <p>Ilmankosteus: ${item.main.humidity} %</p>

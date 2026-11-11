@@ -101,9 +101,9 @@ function naytaSaa(paivanSaa, kaupunki) {
         saaennuste.innerHTML += `
             <div>
                 <h3>${item.dt_txt}</h3>
-                <p>Lämpötila: ${item.main.temp} °C</p>
+                <p>Lämpötila: ${item.main.temp.toFixed(1)} °C</p>
                 <p>Sää: ${item.weather[0].description}</p>
-                <p>Tuuli: ${item.wind.speed} m/s</p>
+                <p>Tuuli: ${item.wind.speed.toFixed(1)} m/s</p>
                 <p>Ilmankosteus: ${item.main.humidity} %</p>
             </div>
         `;

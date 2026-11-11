@@ -5,9 +5,6 @@ const form = document.querySelector("form");
 const paivamaaraInput = document.getElementById("paivamaara");
 const saaennuste = document.getElementById("saaennuste");
 
-// Oma API-avain
-const API_KEY = "e3e9413d8f840e4565cd8ebb83e7f823";
-
 // Valmiin kaupungin valinta pudotusvalikosta
 kaupunkiLista.addEventListener("change", function() {
     omaKaupunki.value = "";

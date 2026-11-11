@@ -79,7 +79,7 @@ Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja OpenWeatherMap API:sta?
 Opimme käyttämään HTML:ää verkkosivun rakenteen luomiseen, CSS:ää ulkoasun muotoiluun ja JavaScriptiä sivun toiminnallisuuksien toteuttamiseen. Lisäksi opimme hyödyntämään OpenWeatherMap API:a reaaliaikaisten säätietojen hakemiseen ja näyttämiseen verkkosovelluksessa. 
 
 
-Oma arvio projektista: 8/10 pistettä
+Oma arvio projektista: 9/10 pistettä
 
 ## Lähteen tai tutoriaalin nimi
 

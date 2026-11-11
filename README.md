@@ -63,6 +63,7 @@ Projektia työstetty yhdessä.
 
 
 ## Oma arvio ja oppimisen reflektointi
+
 Pohdi työtäsi ja oppimisprosessiasi.
 
 Missä onnistuin?
@@ -74,13 +75,11 @@ Mitä parantaisin, jos aikaa olisi enemmän?
 
 - 
 
-Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
+Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja OpenWeatherMap API:sta?
+Opimme käyttämään HTML:ää verkkosivun rakenteen luomiseen, CSS:ää ulkoasun muotoiluun ja JavaScriptiä sivun toiminnallisuuksien toteuttamiseen. Lisäksi opimme hyödyntämään OpenWeatherMap API:a reaaliaikaisten säätietojen hakemiseen ja näyttämiseen verkkosovelluksessa. 
+
+
 Oma arvio projektista: 8/10 pistettä
-
-Lähteet ja kiitokset
-Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
-
-Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
 
 ## Lähteen tai tutoriaalin nimi
 
@@ -92,9 +91,9 @@ Openweather Current & Forecast https://openweathermap.org/api/current?collection
 
 Kuvalähde
 
-Käytetty tekoälytyökalu: ...
+Käytetty tekoälytyökalu: Calude code
 
-Miten työkalua käytettiin: ...
+Miten työkalua käytettiin: Pyysin tekoälyä auttamaan css tyylin luomisessa rautalankamallia kuvaa hyödyntäen. 
 
 ## Lisenssi
 Tämä projekti on lisensoitu MIT-lisenssillä.
